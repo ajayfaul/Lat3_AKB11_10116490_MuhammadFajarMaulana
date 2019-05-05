@@ -13,6 +13,14 @@ import com.morningstar.mfajarm_app.model.ActivitiesModel;
 
 import java.util.ArrayList;
 
+/*
+ * Nama  : Muhammad Fajar Maulana
+ * NIM   : 10116490
+ * Kelas : AKB11
+ * 1 Mei 2019
+ *
+ *
+ * */
 public class ActivitiesAdapter extends RecyclerView.Adapter<ActivitiesAdapter.ActivitiesViewHolder> {
 
     private ArrayList<ActivitiesModel> aActivitiesModel;

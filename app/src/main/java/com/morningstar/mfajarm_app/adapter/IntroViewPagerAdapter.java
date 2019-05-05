@@ -1,5 +1,13 @@
 package com.morningstar.mfajarm_app.adapter;
 
+/*
+ * Nama  : Muhammad Fajar Maulana
+ * NIM   : 10116490
+ * Kelas : AKB11
+ * 1 Mei 2019
+ *
+ *
+ * */
 import android.content.Context;
 import android.support.annotation.NonNull;
 import android.support.v4.view.PagerAdapter;

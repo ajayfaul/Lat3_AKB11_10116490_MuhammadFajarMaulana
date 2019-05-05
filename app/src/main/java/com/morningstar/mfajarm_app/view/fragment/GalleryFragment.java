@@ -12,6 +12,14 @@ import android.view.ViewGroup;
 import com.morningstar.mfajarm_app.R;
 import com.morningstar.mfajarm_app.model.GalleryModel;
 
+/*
+ * Nama  : Muhammad Fajar Maulana
+ * NIM   : 10116490
+ * Kelas : AKB11
+ * 1 Mei 2019
+ *
+ *
+ * */
 public class GalleryFragment extends Fragment {
     @Nullable
     @Override
