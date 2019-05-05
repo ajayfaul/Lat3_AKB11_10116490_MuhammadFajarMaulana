@@ -35,7 +35,7 @@ public class ProfileFragment extends Fragment {
             public void onClick(View v) {
                 Intent browserIntent = new Intent("android.intent.action.VIEW",
 
-                        Uri.parse("https://www.facebook.com/ajayfaul/"));
+                        Uri.parse("https://www.facebook.com/ajayfaul25/"));
 
                 startActivity(browserIntent);
             }
