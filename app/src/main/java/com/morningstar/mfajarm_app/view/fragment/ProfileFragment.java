@@ -74,7 +74,7 @@ public class ProfileFragment extends Fragment {
             @Override
             public void onClick(View v) {
                 Intent intent = new Intent(android.content.Intent.ACTION_VIEW,
-                        Uri.parse("https://www.google.com/maps/search/?api=1&query=-6.8856043,107.6139917"));
+                        Uri.parse("https://www.google.com/maps/search/?api=1&query=-7.2247674,107.9033165,17"));
                 startActivity(intent);
             }
         });
