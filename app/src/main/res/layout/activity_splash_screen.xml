@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/darkerBackgrond"
+    android:gravity="center"
+    android:orientation="vertical"
+    tools:context=".view.SplashScreenActivity">
+
+    <ImageView
+        android:id="@+id/avatarLogo"
+        android:layout_width="match_parent"
+        android:layout_height="130dp"
+        android:src="@drawable/avataaars" />
+
+    <TextView
+        android:id="@+id/logoTitle"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/avatarLogo"
+        android:layout_marginTop="10dp"
+        android:fontFamily="@font/asap_bold"
+        android:gravity="center"
+        android:lineSpacingExtra="4sp"
+        android:text="Fajar M"
+        android:textColor="@color/whitebg"
+        android:textSize="22sp" />
+
+</RelativeLayout>

@@ -1,0 +1,192 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:fillViewport="false">
+    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:background="@color/darkerBackgrond"
+        tools:context=".Views.HomeFragment">
+
+        <FrameLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/frameHomeLayout"
+            >
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="240dp"
+                android:background="@drawable/profbg"
+                android:scaleType="fitXY"
+                />
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:orientation="vertical"
+                >
+
+                <de.hdodenhof.circleimageview.CircleImageView xmlns:app="http://schemas.android.com/apk/res-auto"
+                    android:id="@+id/imgFajarMaulana"
+                    android:layout_width="112dp"
+                    android:layout_height="96dp"
+                    android:layout_gravity="center"
+                    android:layout_alignParentLeft="true"
+                    android:layout_alignParentTop="true"
+                    android:src="@drawable/avataaars"
+                    app:civ_border_color="@color/redPastel"
+                    app:civ_border_width="3dp"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintHorizontal_bias="0.0"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toTopOf="@+id/frameHomeLayout" />
+
+                <TextView
+                    android:id="@+id/txtHomeNama"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="M Fajar Maulana"
+                    android:textAlignment="center"
+                    android:textColor="#FFFFFF"
+                    android:textSize="20dp"
+                    android:textStyle="bold"
+                    android:fontFamily="@font/asap_bold"
+                    app:layout_constraintTop_toBottomOf="@+id/imgFajarMaulana" />
+
+                <TextView
+                    android:id="@+id/txtHomeBio"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="UI / UX Designer"
+                    android:fontFamily="@font/dosis_medium"
+                    android:textColor="#FFFFFF"
+                    android:textAlignment="center"
+                    android:textSize="14sp"
+                    app:layout_constraintTop_toBottomOf="@+id/txtHomeNama" />
+            </LinearLayout>
+
+
+        </FrameLayout>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textAlignment="center"
+            android:text="Contact"
+            android:textSize="20sp"
+            android:fontFamily="@font/dosis_medium"
+            android:textColor="@color/whitebg"
+            />
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="100dp"
+            android:orientation="horizontal"
+            >
+            <ImageView
+                android:id="@+id/facebook"
+                android:layout_width="0dp"
+                android:layout_height="50dp"
+                android:layout_weight="1"
+                android:layout_gravity="center"
+                android:src="@drawable/ic_facebook"
+                android:tint="@color/redPastel"
+                />
+            <ImageView
+                android:id="@+id/instagram"
+                android:layout_width="0dp"
+                android:layout_height="50dp"
+                android:layout_weight="1"
+                android:layout_gravity="center"
+                android:src="@drawable/ic_instagram"
+                android:tint="@color/redPastel"
+                />
+            <ImageView
+                android:id="@+id/whatsapp"
+                android:layout_width="0dp"
+                android:layout_height="50dp"
+                android:layout_weight="1"
+                android:layout_gravity="center"
+                android:src="@drawable/ic_whatsapp"
+                android:tint="@color/redPastel"
+                />
+        </LinearLayout>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textAlignment="center"
+            android:text="Address"
+            android:fontFamily="@font/dosis_medium"
+            android:textSize="20sp"
+            android:textColor="@color/whitebg"
+            />
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:gravity="center|top"
+            >
+
+            <android.support.v7.widget.CardView
+                android:layout_width="300dp"
+                android:layout_height="160dp"
+                android:layout_marginTop="20dp"
+                app:cardCornerRadius="10dp"
+                >
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:background="@drawable/card1"
+                    android:orientation="vertical">
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="20dp"
+                        android:layout_marginTop="20dp"
+                        android:layout_marginRight="20dp"
+                        android:fontFamily="@font/asap_bold"
+                        android:text="My Location"
+                        android:textColor="@color/white2"
+                        android:textSize="26sp" />
+
+                    <Button
+                        android:id="@+id/btnmaps"
+                        android:layout_width="200dp"
+                        android:layout_height="60dp"
+                        android:layout_marginTop="10dp"
+                        android:gravity="center"
+                        android:layout_gravity="center"
+                        android:fontFamily="@font/dosis_medium"
+                        android:text="Click to Locate Me "
+                        android:textColor="@color/white2"
+                        android:textSize="20sp"
+                        android:background="@drawable/card2"/>
+
+                    <Button
+                        android:id="@+id/btaboutme"
+                        android:layout_width="100dp"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center"
+                        android:fontFamily="@font/asap_bold"
+                        android:foregroundGravity="center"
+                        android:gravity="center"
+                        android:text="About"
+                        android:textAllCaps="false"
+                        android:textColor="@color/whitebg"
+                        android:textSize="22sp"
+                        android:background="@drawable/card3"/>
+
+
+                </LinearLayout>
+
+
+            </android.support.v7.widget.CardView>
+
+        </LinearLayout>
+
+
+    </LinearLayout>
+</ScrollView>

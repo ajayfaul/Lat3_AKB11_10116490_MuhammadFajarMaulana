@@ -1,0 +1,280 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/darkerBackgrond"
+    tools:context=".view.fragment.HomeFragment">
+
+    <FrameLayout
+        android:id="@+id/imagee"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="320dp"
+            android:src="@drawable/mypics" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center|bottom"
+            android:layout_marginRight="20dp"
+            android:layout_marginBottom="15dp"
+            android:fontFamily="@font/asap_bold"
+            android:text="Hi, I'm Muhammad \nFajar Maulana"
+            android:textColor="@color/whitebg"
+            android:textSize="28sp" />
+
+    </FrameLayout>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/imagee">
+
+        <HorizontalScrollView
+            android:layout_width="match_parent"
+            android:layout_height="453dp">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                tools:ignore="Orientation">
+
+                <android.support.v7.widget.CardView
+                    android:layout_width="300dp"
+                    android:layout_height="200dp"
+                    android:layout_marginLeft="30dp"
+                    android:layout_marginTop="25dp"
+                    android:layout_marginRight="20dp"
+                    app:cardCornerRadius="10dp">
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:background="@drawable/card1"
+                        android:orientation="vertical">
+
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_marginLeft="20dp"
+                            android:layout_marginTop="20dp"
+                            android:layout_marginRight="20dp"
+                            android:fontFamily="@font/asap_bold"
+                            android:text="My Birthday"
+                            android:textColor="@color/white2"
+                            android:textSize="26sp" />
+
+                        <TextView
+                            android:layout_width="200dp"
+                            android:layout_height="wrap_content"
+                            android:layout_marginLeft="20dp"
+                            android:layout_marginTop="10dp"
+                            android:fontFamily="@font/dosis_medium"
+                            android:text="I was born in Bandung on October 25, 1998 "
+                            android:textColor="@color/white2"
+                            android:textSize="20sp" />
+
+                    </LinearLayout>
+
+
+                </android.support.v7.widget.CardView>
+
+                <android.support.v7.widget.CardView
+                    android:layout_width="300dp"
+                    android:layout_height="200dp"
+                    android:layout_marginTop="25dp"
+                    android:layout_marginRight="20dp"
+                    app:cardCornerRadius="10dp">
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:background="@drawable/card2"
+                        android:orientation="vertical">
+
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_marginLeft="20dp"
+                            android:layout_marginTop="20dp"
+                            android:layout_marginRight="20dp"
+                            android:fontFamily="@font/asap_bold"
+                            android:text="Education"
+                            android:textColor="@color/white2"
+                            android:textSize="26sp" />
+
+                        <TextView
+                            android:layout_width="260dp"
+                            android:layout_height="wrap_content"
+                            android:layout_marginLeft="20dp"
+                            android:layout_marginTop="10dp"
+                            android:fontFamily="@font/dosis_medium"
+                            android:text="I am a graduate of SMKN 2 Garut majoring in multimedia in 2016, and now I continue my undergraduate education at UNIKOM majoring Informatics"
+                            android:textColor="@color/white2"
+                            android:textSize="20sp" />
+
+                    </LinearLayout>
+
+
+                </android.support.v7.widget.CardView>
+
+                <android.support.v7.widget.CardView
+                    android:layout_width="300dp"
+                    android:layout_height="200dp"
+                    android:layout_marginTop="25dp"
+                    android:layout_marginRight="20dp"
+                    app:cardCornerRadius="10dp">
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:background="@drawable/card3"
+                        android:orientation="vertical">
+
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_marginLeft="20dp"
+                            android:layout_marginTop="20dp"
+                            android:layout_marginRight="20dp"
+                            android:fontFamily="@font/asap_bold"
+                            android:text="Citizenship"
+                            android:textColor="@color/white2"
+                            android:textSize="26sp" />
+
+                        <TextView
+                            android:layout_width="260dp"
+                            android:layout_height="wrap_content"
+                            android:layout_marginLeft="20dp"
+                            android:layout_marginTop="10dp"
+                            android:fontFamily="@font/dosis_medium"
+                            android:text="I am an Indonesian and come from the Sundanese tribe"
+                            android:textColor="@color/white2"
+                            android:textSize="20sp" />
+
+                    </LinearLayout>
+                </android.support.v7.widget.CardView>
+
+                <android.support.v7.widget.CardView
+                    android:layout_width="300dp"
+                    android:layout_height="200dp"
+                    android:layout_marginTop="25dp"
+                    android:layout_marginRight="20dp"
+                    app:cardCornerRadius="10dp">
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:background="@drawable/card4"
+                        android:orientation="vertical">
+
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_marginLeft="20dp"
+                            android:layout_marginTop="20dp"
+                            android:layout_marginRight="20dp"
+                            android:fontFamily="@font/asap_bold"
+                            android:text="Interest"
+                            android:textColor="@color/white2"
+                            android:textSize="26sp" />
+
+                        <TextView
+                            android:layout_width="260dp"
+                            android:layout_height="wrap_content"
+                            android:layout_marginLeft="20dp"
+                            android:layout_marginTop="10dp"
+                            android:fontFamily="@font/dosis_medium"
+                            android:text="UI/UX Design, Graphic Design, Animation, Developing Application (Mobile, Web, etc)"
+                            android:textColor="@color/white2"
+                            android:textSize="20sp" />
+
+                    </LinearLayout>
+                </android.support.v7.widget.CardView>
+
+                <android.support.v7.widget.CardView
+                    android:layout_width="300dp"
+                    android:layout_height="200dp"
+                    android:layout_marginTop="25dp"
+                    android:layout_marginRight="20dp"
+                    app:cardCornerRadius="10dp">
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:background="@drawable/card1"
+                        android:orientation="vertical">
+
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_marginLeft="20dp"
+                            android:layout_marginTop="20dp"
+                            android:layout_marginRight="20dp"
+                            android:fontFamily="@font/asap_bold"
+                            android:text="Hobby"
+                            android:textColor="@color/white2"
+                            android:textSize="26sp" />
+
+                        <TextView
+                            android:layout_width="260dp"
+                            android:layout_height="wrap_content"
+                            android:layout_marginLeft="20dp"
+                            android:layout_marginTop="10dp"
+                            android:fontFamily="@font/dosis_medium"
+                            android:text="Playing games, listening music, watching movies and tv series"
+                            android:textColor="@color/white2"
+                            android:textSize="20sp" />
+
+                    </LinearLayout>
+                </android.support.v7.widget.CardView>
+
+                <android.support.v7.widget.CardView
+                    android:layout_width="300dp"
+                    android:layout_height="200dp"
+                    android:layout_marginTop="25dp"
+                    android:layout_marginRight="30dp"
+                    app:cardCornerRadius="10dp">
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:background="@drawable/card2"
+                        android:orientation="vertical">
+
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_marginLeft="20dp"
+                            android:layout_marginTop="20dp"
+                            android:layout_marginRight="20dp"
+                            android:fontFamily="@font/asap_bold"
+                            android:text="Ambition"
+                            android:textColor="@color/white2"
+                            android:textSize="26sp" />
+
+                        <TextView
+                            android:layout_width="260dp"
+                            android:layout_height="wrap_content"
+                            android:layout_marginLeft="20dp"
+                            android:layout_marginTop="10dp"
+                            android:fontFamily="@font/dosis_medium"
+                            android:text="Enterpreneur, UI / UX Designer, Mobile Developer"
+                            android:textColor="@color/white2"
+                            android:textSize="20sp" />
+
+                    </LinearLayout>
+                </android.support.v7.widget.CardView>
+
+            </LinearLayout>
+        </HorizontalScrollView>
+    </LinearLayout>
+
+
+</RelativeLayout>

@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">MFajarM-App</string>
+
+    <string name="home">Home</string>
+    <string name="activities">Activites</string>
+    <string name="gallery">Gallery</string>
+    <string name="music">Music</string>
+    <string name="profile">Profile</string>
+
+</resources>
